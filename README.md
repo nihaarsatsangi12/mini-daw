@@ -2,7 +2,7 @@
 
 A small **digital audio workstation (DAW)** that runs in the browser. Upload a vocal recording, switch effects on and off, adjust them with sliders, listen to the result and download it. It's built in Python with **Gradio** for the interface and Spotify's **Pedalboard** as the main audio engine. Several effects are also written by hand with NumPy and SciPy, including **Schroeder's 1962 reverberator**.
 
-**Live demo:** ADD-LINK-AFTER-DEPLOYING
+**Live demo:** https://mini-daw.onrender.com
 
 ![Mini DAW interface](images/interface.png)
 
@@ -79,7 +79,6 @@ python schroeder_demo.py your_recording.wav
 | `dsp.py` | Hand-written effects: Schroeder reverb, harmonizer, de-esser, auto-pan |
 | `schroeder_demo.py` | Applies the Schroeder reverb to a file and saves waveform and spectrogram plots |
 | `requirements.txt` | Python packages needed |
-| `report.pdf` | Full project report, covering digital audio, reverb theory, and design |
 
 ## Run it locally
 
