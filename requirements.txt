@@ -1,0 +1,6 @@
+gradio
+pedalboard
+soundfile
+numpy
+scipy
+matplotlib
